@@ -1,0 +1,21 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#FFF",
+    "titleBar.inactiveForeground": "#FFFFFFCC",
+    "titleBar.activeBackground": "#CC171F",
+    "titleBar.inactiveBackground": "#CC171F"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "eslint.validate": ["typescript"],
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
