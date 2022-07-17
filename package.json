@@ -11,18 +11,20 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "prettier-link": "prettier --check .",
+    "prettier-lint": "prettier --check .",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",
     "test": ""
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && turbo run lint --location=global && prettier --write . && git add -A ."
     }
   },
   "lint-staged": {
-    "*": "turbo run lint --location=global && prettier --write . && git add -A ."
+    "*.{ts}": [
+      "eslint --fix"
+    ]
   },
   "devDependencies": {
     "eslint-config-custom": "*",

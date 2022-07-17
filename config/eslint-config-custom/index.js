@@ -3,7 +3,6 @@ module.exports = {
     'next',
     'prettier',
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended'
   ],
   rules: {
