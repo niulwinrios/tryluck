@@ -19,6 +19,7 @@ export const Main = styled.div`
 `
 export const ChildrenBox = styled.div`
     grid-area: children;
+    flex-direction:column;
     overflow:auto;
     width:100%;
     height:100%;
