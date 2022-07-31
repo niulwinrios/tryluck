@@ -4,5 +4,31 @@
   },
   "extends": "tsconfig/nextjs.json",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "paths": {
+    "@view/*": [
+      "view/*"
+    ],
+    "@shared/*": [
+      "shared/*"
+    ],
+    "@components/*": [
+      "shared/components/*"
+    ],
+    "@context/*": [
+      "shared/context/*"
+    ],
+    "@hooks/*": [
+      "shared/hooks/*"
+    ],
+    "@services/*": [
+      "shared/services/*"
+    ],
+    "@utils/*": [
+      "shared/utils/*"
+    ],
+    "@styles/*": [
+      "../styles/*"
+    ],
+  }
 }

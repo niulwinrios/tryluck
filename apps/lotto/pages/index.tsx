@@ -1,10 +1,19 @@
-import { Button } from 'ui';
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import { HomeContainer } from '../view/home/home.container'
 
-export default function Docs() {
-  return (
-    <div>
-      <h1>Docs</h1>
-      <Button />
-    </div>
-  );
+const Index: NextPage = props => {
+    return (
+        <>
+            <Head>
+                <title>Try luck</title>
+                <meta name='description' content='Lucky app' />
+                <link rel='icon' href='/favicon.ico' />
+            </Head>
+            <HomeContainer {...props} />
+
+        </>
+    )
 }
+
+export default Index

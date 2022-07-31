@@ -17,5 +17,8 @@
   "eslint.validate": ["typescript"],
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "cSpell.words": [
+    "Renderizado"
+  ]
 }
