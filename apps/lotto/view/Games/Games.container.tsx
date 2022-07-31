@@ -1,13 +1,19 @@
 import GlobalStyle from '../../GlobalStyle';
 import {
   Aside,
+  BannerBox,
+  BannerContainer,
+  BannerText,
   Box,
+  Button,
   Container,
   DivMenu,
   GamesMenu,
   HeaderMain,
   IconMenu,
-  Main
+  LottoImage,
+  Main,
+  SpanBanner
 } from '../generalstyled';
 import { Header } from '../Header';
 import { Imagen } from '../SuperLotto/styled';
@@ -17,6 +23,18 @@ export const Games = () => {
     <>
       <GlobalStyle />
       <Header />
+      <BannerContainer>
+        <LottoImage src="/banner-lotto.png" />
+        <BannerBox>
+          <Box width="100%">
+            <SpanBanner width="5%">SUPER LOTTO</SpanBanner>
+            <BannerText>
+              SIN RIESGO DE PERDIDA.!!! GANA HASTA EL 700% DE TUS APUESTAS
+            </BannerText>
+          </Box>
+          <Button>REGÍSTRATE</Button>
+        </BannerBox>
+      </BannerContainer>
       <Container>
         <Main>
           <HeaderMain>
@@ -55,7 +73,7 @@ export const Games = () => {
               </Box>
             </Box>
           </HeaderMain>
-          <Box width="100%" background="blue">
+          <Box width="100%">
             <img
               src="https://bonosdeapuesta-media.s3.eu-west-3.amazonaws.com/wp-content/uploads/2021/05/04033026/juegos-de-ruleta.png"
               alt=""

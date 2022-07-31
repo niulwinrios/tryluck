@@ -1,12 +1,18 @@
 import {
   Aside,
+  BannerBox,
+  BannerContainer,
+  BannerText,
   Box,
+  Button,
   Container,
   DivMenu,
   GamesMenu,
   HeaderMain,
   IconMenu,
-  Main
+  LottoImage,
+  Main,
+  SpanBanner
 } from '../generalstyled';
 import { Header } from '../Header';
 import {
@@ -23,6 +29,19 @@ export const SuperLotto = () => {
   return (
     <>
       <Header />
+      <BannerContainer>
+        <LottoImage src="/banner-lotto.png" />
+        <BannerBox>
+          <Box width="100%">
+            <SpanBanner width="5%">SUPER LOTTO</SpanBanner>
+            <BannerText>
+              SIN RIESGO DE PERDIDA.!!! GANA HASTA EL 700% DE TUS APUESTAS
+            </BannerText>
+          </Box>
+          <Button>REGÍSTRATE</Button>
+        </BannerBox>
+      </BannerContainer>
+
       <Container>
         <Main>
           <HeaderMain>
@@ -69,7 +88,7 @@ export const SuperLotto = () => {
               </Box>
             </Box>
           </HeaderMain>
-          <Box width="100%" background="blue">
+          <Box width="100%">
             <Table>
               <HeaderLotto>PRIMER SORTEO</HeaderLotto>
               <Numero background="#ff020f" color="#fff">
