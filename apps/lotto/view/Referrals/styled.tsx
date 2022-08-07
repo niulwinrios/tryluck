@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 95%;
+  height: 400px;
   margin: auto;
 `;
 export const Logo = styled.div`
