@@ -60,7 +60,8 @@ export const Metamask = () => {
           <BoxInput>
             <Input
               name="name"
-              title="none"
+              lActiveTitle={false}
+              title=""
               value=""
               placeholder="100"
               iStyles={{ height: '45px' }}
@@ -69,7 +70,7 @@ export const Metamask = () => {
           <BoxInput>
             <Input
               name="name"
-              title="none"
+              title=""
               value=""
               placeholder="200"
               iStyles={{ height: '45px' }}
@@ -78,7 +79,7 @@ export const Metamask = () => {
           <BoxInput>
             <Input
               name="name"
-              title="none"
+              title=""
               value=""
               placeholder="500"
               iStyles={{ height: '45px' }}
@@ -87,7 +88,7 @@ export const Metamask = () => {
           <BoxInput>
             <Input
               name="name"
-              title="none"
+              title=""
               value=""
               placeholder="1000"
               iStyles={{ height: '45px' }}
@@ -97,7 +98,7 @@ export const Metamask = () => {
         <BoxInfo>
           <Input
             name="name"
-            title="none"
+            title=""
             value=""
             placeholder="Cantidad a Recargar"
             iStyles={{ height: '40px' }}

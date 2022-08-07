@@ -31,13 +31,14 @@ export const Info = styled.div`
 `;
 export const BoxInfo = styled.div`
   width: 70%;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #373737;
 `;
 export const DivCheck = styled.div`
-  margin: 50px 0;
+  margin: 40px 0;
 `;
 export const DivButton = styled.div`
   width: 40%;

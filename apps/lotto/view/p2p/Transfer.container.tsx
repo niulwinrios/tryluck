@@ -57,19 +57,19 @@ export const Transfer = () => {
         <BoxInfo>
           <Input
             name="name"
-            title="none"
+            title=""
             value=""
             placeholder="Cantidad a Transferir"
           />
           <Input
             name="name"
-            title="none"
+            title=""
             value=""
             placeholder="Transferir a Usuario"
           />
           <Input
             name="name"
-            title="none"
+            title=""
             value=""
             placeholder="Contraseña de Retiro"
           />

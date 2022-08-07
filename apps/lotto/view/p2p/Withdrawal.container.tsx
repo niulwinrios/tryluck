@@ -59,13 +59,13 @@ export const Withdrawal = () => {
         <BoxInfo>
           <Input
             name="name"
-            title="none"
+            title=""
             value=""
-            placeholder="Cantidad a Transferir"
+            placeholder="Cantidad a Retirar"
           />
           <Input
             name="name"
-            title="none"
+            title=""
             value=""
             placeholder="Contraseña de Retiro"
           />

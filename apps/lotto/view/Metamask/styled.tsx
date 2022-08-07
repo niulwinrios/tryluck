@@ -38,6 +38,7 @@ export const BoxInfo = styled.div`
 `;
 export const BoxAmount = styled.div`
   width: 70%;
+  margin: 20px 0;
   display: flex;
   justify-content: space-between;
 `;
@@ -45,7 +46,7 @@ export const BoxInput = styled.div`
   width: 21%;
 `;
 export const DivCheck = styled.div`
-  margin: 50px 0;
+  margin: 40px 0;
 `;
 export const DivButton = styled.div`
   width: 70%;
