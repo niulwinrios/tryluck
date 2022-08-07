@@ -1,5 +1,6 @@
 export * from './Games';
 export * from './Header';
+export * from './Metamask';
 export * from './p2p';
 export * from './Profile';
 export * from './Referrals';
