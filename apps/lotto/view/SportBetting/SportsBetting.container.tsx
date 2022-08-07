@@ -1,4 +1,3 @@
-import GlobalStyle from '../../GlobalStyle';
 import {
   Aside,
   BannerBox,
@@ -15,7 +14,6 @@ import {
   Main,
   SpanBanner
 } from '../generalstyled';
-import { Header } from '../Header';
 import { Imagen } from '../SuperLotto/styled';
 import {
   BetsCard,
@@ -31,8 +29,6 @@ import {
 export const SportsBetting = () => {
   return (
     <>
-      <GlobalStyle />
-      <Header />
       <BannerContainer>
         <LottoImage src="/banner-lotto.png" />
         <BannerBox>

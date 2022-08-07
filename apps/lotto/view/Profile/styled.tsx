@@ -25,6 +25,7 @@ export const Info = styled.div`
   width: 85%;
   margin: auto;
   background-color: #fff;
+  border-radius: 5px;
 `;
 export const Tittles = styled.div`
   width: 100%;
@@ -41,13 +42,32 @@ export const BoxInfo = styled.div<{ direction?: string }>`
   flex-direction: ${(props) => props.direction || 'row'};
 `;
 
-export const Label = styled.label`
-  color: #8a8a8a;
-  margin-top: 30px;
+export const Conditions = styled.div`
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
 `;
-
-export const Input = styled.input`
-  border: none;
-  border-bottom: 1px solid #9e9e9e;
-  height: 40px;
+export const BoxConditions = styled.div<{ align?: string; justify?: string }>`
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: ${(props) => props.align || 'flex-start'};
+  justify-content: ${(props) => props.justify || 'flex-start'};
+`;
+export const DivCheck = styled.div`
+  margin: 10px 0;
+`;
+export const DivButton = styled.div`
+  width: 40%;
+  padding-bottom: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+`;
+export const Texto = styled.span`
+  font-size: 10px;
+  color: #8a8a8a;
+  margin-top: 10px;
 `;

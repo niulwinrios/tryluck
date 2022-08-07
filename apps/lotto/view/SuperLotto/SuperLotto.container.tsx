@@ -14,7 +14,6 @@ import {
   Main,
   SpanBanner
 } from '../generalstyled';
-import { Header } from '../Header';
 import {
   Dni,
   HeaderLotto,
@@ -28,7 +27,6 @@ import {
 export const SuperLotto = () => {
   return (
     <>
-      <Header />
       <BannerContainer>
         <LottoImage src="/banner-lotto.png" />
         <BannerBox>

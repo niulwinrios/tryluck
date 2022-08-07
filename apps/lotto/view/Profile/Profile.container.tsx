@@ -1,13 +1,19 @@
-import { Input as TextInput, useInitConfigInput } from 'form-tool';
+import { Button, Checkbox } from 'antd';
+import { Input, useInitConfigInput } from 'form-tool';
 import GlobalStyle from '../../GlobalStyle';
 import { Box } from '../generalstyled';
 import {
+  BoxConditions,
   BoxInfo,
+  Conditions,
   Container,
+  DivButton,
+  DivCheck,
   Header,
   Info,
   Logo,
   Span,
+  Texto,
   Tittles
 } from './styled';
 
@@ -47,29 +53,63 @@ export const Profile = () => {
               <BoxInfo>3. Datos de Cuentas</BoxInfo>
             </Tittles>
             <Tittles>
-              <TextInput name="name" title="Primer Nombre" value="" />
-              <TextInput name="name" title="Email" value="" />
-              <TextInput name="name" title="Contraseña" value="" />
+              <Input name="name" title="Primer Nombre" value="" />
+              <Input name="name" title="Email" value="" />
+              <Input name="name" title="Contraseña" value="" />
             </Tittles>
             <Tittles>
-              <TextInput name="name" title="Segundo Nombre" value="" />
-              <TextInput name="name" title="Confirmar Email" value="" />
-              <TextInput name="name" title="Confirmar Contraseña" value="" />
+              <Input name="name" title="Segundo Nombre" value="" />
+              <Input name="name" title="Confirmar Email" value="" />
+              <Input name="name" title="Confirmar Contraseña" value="" />
             </Tittles>
             <Tittles>
-              <TextInput name="name" title="Primer Apellido" value="" />
-              <TextInput name="name" title="Teléfono Móvil" value="" />
-              <TextInput name="name" title="Usuario" value="" />
+              <Input name="name" title="Primer Apellido" value="" />
+              <Input name="name" title="Teléfono Móvil" value="" />
+              <Input name="name" title="Usuario" value="" />
             </Tittles>
             <Tittles>
-              <TextInput name="name" title="Segundo Apellido" value="" />
-              <TextInput name="name" title="Confirmar Teléfono" value="" />
-              <TextInput name="name" title="Link de Referido" value="" />
+              <Input name="name" title="Segundo Apellido" value="" />
+              <Input name="name" title="Confirmar Teléfono" value="" />
+              <Input name="name" title="Link de Referido" value="" />
             </Tittles>
           </Box>
-
-          <div>informacion</div>
-          <div>boton</div>
+          <Conditions>
+            <BoxConditions>
+              <DivCheck>
+                <Checkbox>
+                  <Texto>
+                    Declaro que soy una persona expuesta políticamente
+                  </Texto>
+                </Checkbox>
+              </DivCheck>
+              <DivCheck>
+                <Checkbox>
+                  <Texto>Declaro el origen lícito de los fondos</Texto>
+                </Checkbox>
+              </DivCheck>
+              <DivCheck>
+                <Checkbox>
+                  <Texto>Aceptar términos y condiciones</Texto>
+                </Checkbox>
+              </DivCheck>
+            </BoxConditions>
+            <BoxConditions align="flex-end" justify="center">
+              <Texto>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum is simply dummy.
+              </Texto>
+              <Texto>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </Texto>
+            </BoxConditions>
+          </Conditions>
+          <DivButton>
+            <Button type="primary" danger>
+              Terminar Registro
+            </Button>
+          </DivButton>
         </Info>
       </Container>
     </>

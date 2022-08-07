@@ -1,20 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
-  background-color: #9b9b9b29;
-  padding-bottom: 20px;
+  width: 95%;
+  margin: auto;
 `;
 export const Logo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 15px;
 `;
 export const Header = styled.div`
   width: 100%;
-  margin-bottom: 20px;
   text-align: center;
+  padding-bottom: 15px;
 `;
 export const Span = styled.span`
   font-size: 20px;
