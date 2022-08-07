@@ -1,3 +1,5 @@
-export default function Withdrawal() {
-  return <div>withdrawal</div>;
+import { Withdrawal } from '../../view';
+
+export default function WithdrawalPage() {
+  return <Withdrawal />;
 }
