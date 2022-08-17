@@ -16,7 +16,7 @@ export const routes: RoutesInterface[] = [
   {
     key: 'xxxx',
     name: 'INFORMACIÓN',
-    path: '/planner/customer-prospect'
+    path: '/'
   },
   {
     key: 'xx',
@@ -36,6 +36,6 @@ export const routes: RoutesInterface[] = [
   {
     key: 'xxxxxx',
     name: 'SIMULADOR',
-    path: '/planner/customer-prospect'
+    path: '/'
   }
 ];
